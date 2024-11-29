@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>   
+  <body>    
 
     <header class="page-header">
       <div class="container header-container">
@@ -75,7 +75,7 @@
 
       <section class="section-services" id="services">
         <div class="container">
-          <h2 class="hidden" hidden>Our Services</h2>
+          <h2 class="visuality-hiden" hidden>Our Services</h2>
           <ul class="services-list">
             <li class="services-item">
               <div class="icon-wrapper">
@@ -417,6 +417,58 @@
           </ul>
         </div>
       </section>      
+      <!-- Модальне вікно -->
+      <div class="modal-overlay">
+        <div class="modal">
+          <button class="modal-close" aria-label="Close modal">&times;</button>
+          <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+          <form class="modal-form">
+            <!-- Поле Name -->
+            <div class="form-group with-icon">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <svg class="icon icon-user">
+                <use xlink:href="#icon-user"></use>
+              </svg>
+            </div>
+      
+            <!-- Поле Phone -->
+            <div class="form-group with-icon">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+              <svg class="icon icon-phone">
+                <use xlink:href="#icon-phone"></use>
+              </svg>
+            </div>
+      
+            <!-- Поле Email -->
+            <div class="form-group with-icon">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <svg class="icon icon-email">
+                <use xlink:href="#icon-e-mail"></use>
+              </svg>
+            </div>
+      
+            <!-- Поле Comment -->
+            <div class="form-group">
+              <label for="comment">Comment</label>
+              <textarea id="comment" name="comment" placeholder="Your Comment"></textarea>
+            </div>
+      
+            <!-- Чекбокс -->
+            <div class="form-checkbox">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+            </div>
+      
+            <!-- Кнопка -->
+            <button type="submit" class="modal-submit">Send</button>
+          </form>
+        </div>
+      </div>
+         
+      <script src="js/script.js"></script>  
       
     </main>
         
