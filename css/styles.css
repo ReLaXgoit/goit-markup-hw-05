@@ -533,10 +533,6 @@ img {
 /* #endregion Portfolio Section */
 
 /* #region Modal form */
-
-/* Бекдроп */
-/* Загальний стиль для модального вікна */
-/* Загальні стилі для модального вікна */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -592,7 +588,7 @@ img {
 .modal-form .form-group input,
 .modal-form .form-group textarea {
   width: 100%;
-  padding: 10px 35px 10px 10px; /* Простір для іконок */
+  padding: 10px 35px 10px 10px; 
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;

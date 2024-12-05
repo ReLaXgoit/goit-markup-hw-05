@@ -41,10 +41,10 @@
     <symbol id="icon-user" viewBox="0 0 24 24">
       <path d="M12 12c2.761 0 5-2.239 5-5s-2.239-5-5-5-5 2.239-5 5 2.239 5 5 5zm0 2c-3.313 0-10 1.687-10 5v2h20v-2c0-3.313-6.687-5-10-5z"></path>
     </symbol>
-    <symbol id="icon-Phone" viewBox="0 0 24 24">
+    <symbol id="icon-phone" viewBox="0 0 24 24">
       <path d="M6.62 10.79a15.053 15.053 0 006.58 6.58l2.2-2.2a1 1 0 011.08-.21 11.57 11.57 0 003.61.72 1 1 0 011 1v3.37a1 1 0 01-.91 1 17.5 17.5 0 01-16.57-16.57 1 1 0 011-.91h3.36a1 1 0 011 1 11.57 11.57 0 00.72 3.61 1 1 0 01-.21 1.08z"></path>
     </symbol>
-    <symbol id="icon-e-mail" viewBox="0 0 24 24">
+    <symbol id="icon-email" viewBox="0 0 24 24">
       <path d="M12 13l-12-8v16h24v-16l-12 8zm12-11h-24v2l12 8 12-8v-2z"></path>
     </symbol>
       
