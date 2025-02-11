@@ -607,9 +607,8 @@ img {
 
 .form-group.with-icon .icon {
   position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 300px;
+  top: 50%;  
   width: 20px;
   height: 20px;
   fill: #4d5ae5;
