@@ -96,7 +96,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 0%;
   height: 4px;
   background-color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -265,8 +265,7 @@ img {
   margin: 0 auto 16px;
   width: 64px;
   height: 64px;
-  fill: #4d5ae5; 
-  background-color: #e7eaf3; 
+  fill: #4d5ae5;  
   padding: 10px;
 }
 
@@ -533,6 +532,7 @@ img {
 /* #endregion Portfolio Section */
 
 /* #region Modal form */
+/* Модальне вікно */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -588,7 +588,7 @@ img {
 .modal-form .form-group input,
 .modal-form .form-group textarea {
   width: 100%;
-  padding: 10px 35px 10px 10px; 
+  padding: 10px 35px 10px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
